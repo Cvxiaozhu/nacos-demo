@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        # 开启永久实例 默认为true
+        ephemeral: false
+        server-addr: 192.168.92.68:8848
+      username: nacos
+      password: nacos
+

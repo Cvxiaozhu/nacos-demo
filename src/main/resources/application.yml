@@ -1,0 +1,11 @@
+server:
+  port: 7777
+
+spring:
+  application:
+   name: nacos-service
+
+  # 使用 自定义的一个nacos服务配置文件 需要配置 文件路径
+  config:
+    import: bootstrap.yml
+
